@@ -36,6 +36,14 @@ namespace Assets.Scripts.Model
             return _playerData.CurrentLevel;
         }
 
+        public void SetCharacter(Transform transform)
+        {
+            _playerData.PlayerCharacter = transform;
+        }
+        public Transform GetCharacter()
+        {
+            return _playerData.PlayerCharacter;
+        }
         #endregion
     }   
 }

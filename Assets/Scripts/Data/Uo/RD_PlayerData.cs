@@ -15,5 +15,8 @@ namespace Assets.Scripts.Data.Uo
         public float MoveSpeed;
         public float TurnSensivity;
 
+        [Title("Runtime")] 
+        public Transform PlayerCharacter;
+
     }
 }

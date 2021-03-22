@@ -10,6 +10,8 @@ namespace Assets.Scripts.Model
     {
         private RD_GameData _gameData;
 
+        #region PostConstruct
+
         public RD_GameData GameData
         {
             get
@@ -26,5 +28,8 @@ namespace Assets.Scripts.Model
         {
             _gameData = Resources.Load<RD_GameData>("Data/GameData");
         }
+
+        #endregion
+        
     }   
 }

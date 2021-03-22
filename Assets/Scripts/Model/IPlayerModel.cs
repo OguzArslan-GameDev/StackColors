@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Data.Uo;
+using UnityEngine;
 
 namespace Assets.Scripts.Model
 {
@@ -6,5 +7,8 @@ namespace Assets.Scripts.Model
     { 
         RD_PlayerData PlayerData { get; set; }
         int GetCurrentLevel();
+        void SetCharacter(Transform transform);
+        Transform GetCharacter();
+
     }   
 }

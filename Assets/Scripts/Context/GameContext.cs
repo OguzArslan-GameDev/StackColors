@@ -1,10 +1,12 @@
-﻿using Assets.Scripts.Enums;
+﻿using Assets.Scripts.Controller;
 using strange.extensions.context.api;
 using strange.extensions.context.impl;
 using UnityEngine;
 using Assets.Scripts.Views;
 using Assets.Scripts.Mediators;
+using Assets.Scripts.Mediators.Inputs;
 using Assets.Scripts.Model;
+using Assets.Scripts.Views.Inputs;
 
 namespace Assets.Scripts.Context
 {
@@ -29,12 +31,20 @@ namespace Assets.Scripts.Context
             injectionBinder.Bind<IGameModel>().To<GameModel>().CrossContext().ToSingleton();
             injectionBinder.Bind<IPlayerModel>().To<PlayerModel>().CrossContext().ToSingleton();
             injectionBinder.Bind<ILevelModel>().To<LevelModel>().CrossContext().ToSingleton();
+            injectionBinder.Bind<IInputModel>().To<InputModel>().CrossContext().ToSingleton();
 
             //*** Mediator & View bind
             mediationBinder.Bind<LevelManager>().To<LevelManagerMediator>();
+            mediationBinder.Bind<PlayerManager>().To<PlayerManagerMediator>();
+            mediationBinder.Bind<CameraManager>().To<CameraManagerMediator>();
+            
+            //***Inputs View & Mediators
+            mediationBinder.Bind<SwipeInputView>().To<SwipeInputMediator>();
 
             //*** Command bind
-            //commandBinder.Bind(_gameSignals.Init).To<TestCommand>();
+            commandBinder.Bind(_gameSignals.GameStart).InSequence()
+                .To<ResetDataCommand>()
+                .To<StartCommand>();
         }
 
         public override void Launch()
