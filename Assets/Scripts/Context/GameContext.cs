@@ -1,4 +1,5 @@
-﻿using strange.extensions.context.api;
+﻿using Assets.Scripts.Enums;
+using strange.extensions.context.api;
 using strange.extensions.context.impl;
 using UnityEngine;
 using Assets.Scripts.Views;
@@ -26,8 +27,9 @@ namespace Assets.Scripts.Context
             
             //*** Data injection bind
             injectionBinder.Bind<IGameModel>().To<GameModel>().CrossContext().ToSingleton();
-            
-            //*** Meditator & View bind
+            injectionBinder.Bind<IPlayerModel>().To<PlayerModel>().CrossContext().ToSingleton();
+
+            //*** Mediator & View bind
             mediationBinder.Bind<TestView>().To<TestMediator>();
 
             //*** Command bind
@@ -37,6 +39,7 @@ namespace Assets.Scripts.Context
         public override void Launch()
         {
             base.Launch();
+            Application.targetFrameRate = 60;
         }
     }
  

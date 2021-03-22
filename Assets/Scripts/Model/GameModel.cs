@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Assets.Scripts.Data.Uo;
 using UnityEngine;
 
 namespace Assets.Scripts.Model
@@ -7,17 +8,15 @@ namespace Assets.Scripts.Model
  
     public class GameModel : IGameModel
     {
-        public string data {get;set;}
+        private RD_GameData _gameData;
 
-        /*private CD_GameModel _gameModel;
-
-        public CD_GameModel GameData
+        public RD_GameData GameData
         {
             get
             {
-                if (_gameModel == null)
+                if (_gameData == null)
                     OnPostConstruct();
-                return _gameModel;
+                return _gameData;
             }
             set { }
         }
@@ -25,7 +24,7 @@ namespace Assets.Scripts.Model
         [PostConstruct]
         public void OnPostConstruct()
         {
-            _gameModel = Resources.Load<CD_GameModel>("Data/GameModel");
-        }*/
+            _gameData = Resources.Load<RD_GameData>("Data/GameData");
+        }
     }   
 }

@@ -1,8 +1,9 @@
-﻿
+﻿using Assets.Scripts.Data.Uo;
+
 namespace Assets.Scripts.Model
 {
     public interface IGameModel
-    {
-        string data{get;set;}
+    { 
+        RD_GameData GameData { get; set; }
     }   
 }

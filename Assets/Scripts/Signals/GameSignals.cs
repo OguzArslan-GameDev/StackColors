@@ -2,5 +2,5 @@
 
 public class GameSignals
 {
-    //public Signal GameStarted = new Signal();
+    public Signal GameStart = new Signal();
 }
