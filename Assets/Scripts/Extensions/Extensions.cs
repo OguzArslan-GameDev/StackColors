@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Extensions
 {
-    public static class OgzExtensions
+    public static class Extensions
     {
         public static void AddOrCreate<TKey, TValue>(this IDictionary<TKey, List<TValue>> dict, TKey key, TValue value)
         {
@@ -35,14 +35,14 @@ namespace Assets.Scripts.Extensions
             return _findInChildrenWithName(trans, name);
         }
         
-        public static void DisableChilderen(this Transform trans)
+        public static void DisableChildren(this Transform trans)
         {
             for (int i = 0; i < trans.childCount; i++)
             {
               trans.GetChild(i).gameObject.SetActive(false);
             }
         }
-        public static void DestroyChilderen(this Transform trans)
+        public static void DestroyChildren(this Transform trans)
         {
             for (int i = 0; i < trans.childCount; i++)
             {
@@ -50,4 +50,5 @@ namespace Assets.Scripts.Extensions
             }
         }
     }
+    
 }

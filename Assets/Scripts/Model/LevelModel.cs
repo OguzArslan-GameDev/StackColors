@@ -4,19 +4,19 @@ using UnityEngine;
 namespace Assets.Scripts.Model
 {
  
-    public class PlayerModel : IPlayerModel
+    public class LevelModel : ILevelModel
     {
-        private RD_PlayerData _playerData;
+        private CD_LevelData _levelData;
 
         #region PostConstruct
 
-        public RD_PlayerData PlayerData
+        public CD_LevelData LevelData
         {
             get
             {
-                if (_playerData == null)
+                if (_levelData == null)
                     OnPostConstruct();
-                return _playerData;
+                return _levelData;
             }
             set { }
         }
@@ -24,16 +24,17 @@ namespace Assets.Scripts.Model
         [PostConstruct]
         public void OnPostConstruct()
         {
-            _playerData = Resources.Load<RD_PlayerData>("Data/PlayerData");
+            _levelData = Resources.Load<CD_LevelData>("Data/LevelData");
         }
         
+
         #endregion
 
         #region Func
 
-        public int GetCurrentLevel()
+        public GameObject GetLevel(int currentLevel)
         {
-            return _playerData.CurrentLevel;
+            return _levelData.Levels[currentLevel];
         }
 
         #endregion

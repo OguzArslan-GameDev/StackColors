@@ -28,18 +28,20 @@ namespace Assets.Scripts.Context
             //*** Data injection bind
             injectionBinder.Bind<IGameModel>().To<GameModel>().CrossContext().ToSingleton();
             injectionBinder.Bind<IPlayerModel>().To<PlayerModel>().CrossContext().ToSingleton();
+            injectionBinder.Bind<ILevelModel>().To<LevelModel>().CrossContext().ToSingleton();
 
             //*** Mediator & View bind
-            mediationBinder.Bind<TestView>().To<TestMediator>();
+            mediationBinder.Bind<LevelManager>().To<LevelManagerMediator>();
 
             //*** Command bind
-            //commandBinder.Bind(GameSignals.GameStart).To<TestCommand>();
+            //commandBinder.Bind(_gameSignals.Init).To<TestCommand>();
         }
 
         public override void Launch()
         {
             base.Launch();
             Application.targetFrameRate = 60;
+            _gameSignals.Init.Dispatch();
         }
     }
  
