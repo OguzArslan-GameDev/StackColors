@@ -24,6 +24,7 @@ namespace Assets.Scripts.Mediators
             view.onCorrect += OnCorrect;
             view.onWrong += OnWrong;
             view.onChangeColor += OnChangeColor;
+            view.onFinish += OnFinish;
 
             GameSignals.Init.AddListener(Init);    
             GameSignals.PlayerMove.AddListener(OnMove);
@@ -40,6 +41,7 @@ namespace Assets.Scripts.Mediators
             view.onCorrect -= OnCorrect;
             view.onWrong -= OnWrong;
             view.onChangeColor -= OnChangeColor;
+            view.onFinish -= OnFinish;
 
             GameSignals.Init.RemoveListener(Init);
             GameSignals.PlayerMove.RemoveListener(OnMove);
@@ -79,6 +81,15 @@ namespace Assets.Scripts.Mediators
                 SplinePath = GameModel.GameData.Splines[SplineDirType.Mid]
             });
             
+        }
+        private void OnFinish()
+        {
+            view.Move(new PlayerVo()
+            {
+                Speed = 0f,
+                SplinePath = GameModel.GameData.Splines[SplineDirType.Mid]
+            });
+            GameSignals.Success.Dispatch();
         }
         private void OnSwipeChanged()
         {

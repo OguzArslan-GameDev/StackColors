@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
 using Assets.Scripts.Data.Vo;
 using Assets.Scripts.Enums;
-using Sirenix.OdinInspector;
 using strange.extensions.mediation.impl;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace Assets.Scripts.Views
 {
@@ -21,6 +19,17 @@ namespace Assets.Scripts.Views
                     vo.Cam.Follow = character;
                     vo.Cam.LookAt = character;
                 }
+            }
+        }
+        public void OpenCam(VCameraType type)
+        {
+            foreach (var vo in list)
+            {
+                if(vo.Type == type)
+                    vo.Cam.gameObject.SetActive(true);
+                
+                else
+                    vo.Cam.gameObject.SetActive(false);
             }
         }
     }

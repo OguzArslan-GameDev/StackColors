@@ -4,6 +4,7 @@ using Assets.Scripts.Views;
 using FluffyUnderware.Curvy.Controllers;
 using Sirenix.OdinInspector;
 using strange.extensions.mediation.impl;
+using UnityEngine;
 
 namespace Assets.Scripts.Mediators
 {
@@ -14,11 +15,13 @@ namespace Assets.Scripts.Mediators
         [Inject] public IPlayerModel PlayerModel { get; set;}
         [Inject] public ILevelModel LevelModel { get; set;}
         [Inject] public IGameModel GameModel { get; set;}
+        [Inject] public IBuildModel BuildModel { get; set;}
 
         public override void OnRegister()
         {
             base.OnRegister();
             view.onSetSpline += SetSpline;
+            view.onSetBuildBase += SetBuildBase;
 
             GameSignals.Init.AddListener(Init);            
         }
@@ -27,6 +30,7 @@ namespace Assets.Scripts.Mediators
         {
             base.OnRemove();
             view.onSetSpline -= SetSpline;
+            view.onSetBuildBase -= SetBuildBase;
 
             GameSignals.Init.RemoveListener(Init);
         }
@@ -40,6 +44,10 @@ namespace Assets.Scripts.Mediators
         private void SetSpline(SplineVo vo)
         {
             GameModel.GameData.Splines = vo.Dictionary;
+        }
+        private void SetBuildBase(Transform transform)
+        {
+            BuildModel.BuildData.BuildBase = transform.gameObject;
         }
     }    
 }

@@ -4,6 +4,6 @@ namespace Assets.Scripts.Enums
     {
         Main,
         TPS,
-        TapTap,
+        Finish,
     }
 }

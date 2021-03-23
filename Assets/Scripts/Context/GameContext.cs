@@ -32,6 +32,7 @@ namespace Assets.Scripts.Context
             injectionBinder.Bind<IPlayerModel>().To<PlayerModel>().CrossContext().ToSingleton();
             injectionBinder.Bind<ILevelModel>().To<LevelModel>().CrossContext().ToSingleton();
             injectionBinder.Bind<IInputModel>().To<InputModel>().CrossContext().ToSingleton();
+            injectionBinder.Bind<IBuildModel>().To<BuildModel>().CrossContext().ToSingleton();
 
             //*** Mediator & View bind
             mediationBinder.Bind<LevelManager>().To<LevelManagerMediator>();
@@ -47,6 +48,7 @@ namespace Assets.Scripts.Context
                 .To<StartCommand>();
             commandBinder.Bind(_gameSignals.Correct).To<CheckCorrectCommand>();
             commandBinder.Bind(_gameSignals.Wrong).To<CheckWrongCommand>();
+            commandBinder.Bind(_gameSignals.Success).To<BuildSystemCommand>();
         }
 
         public override void Launch()

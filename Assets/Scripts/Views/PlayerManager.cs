@@ -15,9 +15,10 @@ namespace Assets.Scripts.Views
     {
         public event UnityAction<Transform> onLoadedPlayer;
         public event UnityAction<TriggerIdentity> onCorrect;
-        public event UnityAction<ColorType> onChangeColor;
-
         public event UnityAction onWrong;
+        public event UnityAction<ColorType> onChangeColor;
+        public event UnityAction onFinish;
+
 
         private Transform Player;
         private Transform PlayerHolder;
@@ -68,6 +69,11 @@ namespace Assets.Scripts.Views
             else if(triggerIdentity.Type == TriggerType.Shifter)
             {
                 onChangeColor?.Invoke(triggerIdentity.Color);
+            }
+            else if(triggerIdentity.Type == TriggerType.Finish)
+            {
+                onFinish?.Invoke();
+                Animator.SetTrigger("DOIdle");
             }
         }
         public void SetColorType(ColorType colorType)

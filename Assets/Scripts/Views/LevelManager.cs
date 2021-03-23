@@ -12,13 +12,18 @@ namespace Assets.Scripts.Views
     public class LevelManager : View
     {
         public event UnityAction<SplineVo> onSetSpline;
+        public event UnityAction<Transform> onSetBuildBase;
+
         private Dictionary<SplineDirType,CurvySpline> tempDic;
+        private Transform BuildBase;
         public void InitLevel(GameObject level)
         {
             tempDic = new Dictionary<SplineDirType, CurvySpline>();
             this.transform.DestroyChildren();
             var go = GameObject.Instantiate(level, this.transform.position, Quaternion.identity);
             go.transform.parent = this.transform;
+            BuildBase = go.transform.FindInChildrenWithName("Final").FindInChildrenWithName("BuildBase");
+            SetBuildBase();
             SetSplines(go.transform);
         }
 
@@ -39,6 +44,11 @@ namespace Assets.Scripts.Views
                 Dictionary = tempDic
             });
         } 
+        private void SetBuildBase()
+        {
+            onSetBuildBase?.Invoke(BuildBase);
+        } 
+       
     }
     
 }

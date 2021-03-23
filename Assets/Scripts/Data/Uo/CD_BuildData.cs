@@ -11,7 +11,8 @@ namespace Assets.Scripts.Data.Uo
         public GameObject BuildBase;
         public GameObject prefab;
         public List<BuildVo> list = new List<BuildVo>();
-
+        public float ProcessValue;
+        
         [Button("PROCESS BUILD DATA")]
         public void ProcessBuildData()
         {

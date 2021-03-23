@@ -28,6 +28,7 @@ namespace Assets.Scripts.Context
             // injectionBinder.Bind<IGameModel>().To<GameModel>().CrossContext().ToSingleton();
             mediationBinder.Bind<ScreenManager>().To<ScreenManagerMediator>();
             mediationBinder.Bind<TapToStartView>().To<TapToStartMediator>();
+            mediationBinder.Bind<SuccessView>().To<SuccessMediator>();
             //commandBinder.Bind(GameSignals.GameStart).To<TestCommand>();
         }
 
