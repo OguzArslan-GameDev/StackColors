@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿using Assets.Scripts.Enums;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Assets.Scripts.Data.Uo
@@ -17,6 +18,7 @@ namespace Assets.Scripts.Data.Uo
 
         [Title("Runtime")] 
         public Transform PlayerCharacter;
+        public ColorType ColorType;
 
     }
 }

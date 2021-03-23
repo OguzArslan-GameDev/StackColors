@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Data.Uo;
+using Assets.Scripts.Enums;
 using UnityEngine;
 
 namespace Assets.Scripts.Model
@@ -43,6 +44,10 @@ namespace Assets.Scripts.Model
         public Transform GetCharacter()
         {
             return _playerData.PlayerCharacter;
+        }
+        public void Reset()
+        {
+            _playerData.ColorType = ColorType.Yellow;
         }
         #endregion
     }   

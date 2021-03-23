@@ -9,6 +9,7 @@ namespace Assets.Scripts.Model
         int GetCurrentLevel();
         void SetCharacter(Transform transform);
         Transform GetCharacter();
+        void Reset();
 
     }   
 }

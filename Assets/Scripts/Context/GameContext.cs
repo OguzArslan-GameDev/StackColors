@@ -45,6 +45,8 @@ namespace Assets.Scripts.Context
             commandBinder.Bind(_gameSignals.GameStart).InSequence()
                 .To<ResetDataCommand>()
                 .To<StartCommand>();
+            commandBinder.Bind(_gameSignals.Correct).To<CheckCorrectCommand>();
+            commandBinder.Bind(_gameSignals.Wrong).To<CheckWrongCommand>();
         }
 
         public override void Launch()
