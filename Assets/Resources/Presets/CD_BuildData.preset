@@ -1,0 +1,2175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CD_BuildData
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 20b835438efb4d86a252a6cdfb59377f, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.SerializedFormat
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.SerializedBytes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.ReferencedUnityObjects.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.SerializedBytesString
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.Prefab
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.PrefabModifications.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: serializationData.SerializationNodes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BuildBase
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prefab
+    value: 
+    objectReference: {fileID: 8193787477094258151, guid: 7beef94eea44c45d1b00ae21a5ab600f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: list.Array.size
+    value: 75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[0].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[1].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[2].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[3].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[4].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[5].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[6].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Position.x
+    value: 2.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[7].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Position.x
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Position.y
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Position.z
+    value: 3.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[8].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[9].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[10].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[11].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[12].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[13].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[14].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[15].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Position.x
+    value: 2.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[16].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Position.x
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Position.y
+    value: 0.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Position.z
+    value: 3.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[17].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[18].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[19].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[20].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Position.y
+    value: 0.94
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[21].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[22].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[23].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[24].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Position.x
+    value: 2.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[25].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Position.x
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Position.y
+    value: 0.94000006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Position.z
+    value: 3.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[26].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[27].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[28].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[29].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Position.y
+    value: 1.5299999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[30].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[31].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[32].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[33].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Position.x
+    value: 2.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[34].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Position.x
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Position.z
+    value: 3.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[35].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Position.x
+    value: 0.6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[36].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Position.x
+    value: 0.5999999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[37].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Position.x
+    value: 0.5999999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Position.y
+    value: 1.53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[38].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[39].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[40].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[41].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Position.x
+    value: -1.52
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Position.y
+    value: 2.11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[42].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[43].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[44].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Position.x
+    value: 2.6800003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[45].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Position.x
+    value: 2.68
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Position.z
+    value: 3.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[46].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Position.x
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Position.z
+    value: 3.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[47].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Position.x
+    value: 0.6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[48].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Position.x
+    value: 0.5999999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Position.z
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[49].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Position.x
+    value: 0.5999999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Position.y
+    value: 2.1100004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Position.z
+    value: 2.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[50].Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Position.x
+    value: 2.680015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[51].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Position.x
+    value: 2.680015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Position.z
+    value: 1.0400085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[52].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Position.x
+    value: 2.680015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Position.z
+    value: 2.0929868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[53].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Position.x
+    value: 2.680015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Position.y
+    value: 2.99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Position.z
+    value: 3.1549985
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[54].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Position.x
+    value: 1.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[55].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Position.x
+    value: 1.9000001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Position.z
+    value: 1.0400085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[56].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Position.x
+    value: 1.9000001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Position.z
+    value: 2.0929868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[57].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Position.x
+    value: 1.9000001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Position.y
+    value: 2.99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Position.z
+    value: 3.1549985
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[58].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Position.x
+    value: 1.1199998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[59].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Position.x
+    value: 1.1199999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Position.z
+    value: 1.0400085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[60].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Position.x
+    value: 1.1199999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Position.y
+    value: 2.9899998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Position.z
+    value: 2.0929868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[61].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Position.x
+    value: 1.12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Position.y
+    value: 2.99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Position.z
+    value: 3.1549985
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Rotation.x
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Rotation.z
+    value: -0.34462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[62].Rotation.w
+    value: 0.9387423
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Position.x
+    value: 0.39866143
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Position.z
+    value: 3.15509
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[63].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Position.x
+    value: 0.39909035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Position.z
+    value: 2.1151428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[64].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Position.x
+    value: 0.39955336
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Position.z
+    value: 1.0621033
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[65].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Position.x
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Position.y
+    value: 2.9900744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[66].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Position.x
+    value: -0.44042885
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Position.z
+    value: 3.15509
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[67].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Position.x
+    value: -0.44
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Position.z
+    value: 2.1151428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[68].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Position.x
+    value: -0.43953693
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Position.z
+    value: 1.0621033
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[69].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Position.x
+    value: -0.43909028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Position.y
+    value: 2.9900744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[70].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Position.x
+    value: -1.2808917
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Position.z
+    value: 3.15509
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[71].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Position.x
+    value: -1.2804629
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Position.z
+    value: 2.1151428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[72].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Position.x
+    value: -1.28
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Position.y
+    value: 2.990074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Position.z
+    value: 1.0621033
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[73].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Position.x
+    value: -1.2795532
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Position.y
+    value: 2.9900744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Rotation.x
+    value: -0.34462035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Rotation.y
+    value: 0.93874216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Rotation.z
+    value: -0.00007250875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: list.Array.data[74].Rotation.w
+    value: 0.00019742499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ProcessValue
+    value: 97.333336
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
