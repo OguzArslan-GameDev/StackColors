@@ -43,6 +43,7 @@ namespace Assets.Scripts.Context
             mediationBinder.Bind<SwipeInputView>().To<SwipeInputMediator>();
 
             //*** Command bind
+            commandBinder.Bind(_gameSignals.Init).To<InitCommand>();
             commandBinder.Bind(_gameSignals.GameStart).InSequence()
                 .To<ResetDataCommand>()
                 .To<StartCommand>();

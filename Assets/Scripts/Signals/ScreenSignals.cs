@@ -5,4 +5,6 @@ public class ScreenSignals
 {
     public Signal<PanelVo> OpenPanel = new Signal<PanelVo>();
     public Signal<int> ClearPanel = new Signal<int>();
+    public Signal OpenMainScreen = new Signal();
+
 }

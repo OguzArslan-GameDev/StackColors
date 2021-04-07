@@ -35,11 +35,11 @@ namespace Assets.Scripts.Context
         public override void Launch()
         {
             base.Launch();
-            _screenSignals.OpenPanel.Dispatch(new PanelVo()
+            /*_screenSignals.OpenPanel.Dispatch(new PanelVo()
             {
                 Layer = 0,
                 PanelName = GameScreen.TapToStart.ToString()
-            });
+            });*/
         }
     }
  

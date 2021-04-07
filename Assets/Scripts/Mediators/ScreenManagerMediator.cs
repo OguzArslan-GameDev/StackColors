@@ -30,5 +30,6 @@ namespace Assets.Scripts.Mediators
         {
             view.ClearPanel(layer);
         }
+       
     }   
 }
